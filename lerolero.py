@@ -17,5 +17,10 @@ parte3 = [
           ",promovendo ampla vantagem competitiva a seus usuários"]
 
 
-print(random.choice(parte1),random.choice(parte2),random.choice(parte3))
+lingua = int(input("Escolha a lingua: 1 - potuguês 2 - inglês\n"))
 
+if lingua == 2
+    parte1 = []
+    parte2 = []
+    parte3 = []
+print(random.choice(parte1), random.choice(parte2), random.choice(parte3))
